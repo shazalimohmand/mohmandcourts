@@ -71,3 +71,12 @@
       max-width: 100%;
     }
   }
+
+  @media (max-width: 992px) { /* 992px is the breakpoint for 'md' in Bootstrap */
+    .container-navbar {
+        width: 100% !important; /* Overwrite container styles */
+        max-width: 100% !important;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
