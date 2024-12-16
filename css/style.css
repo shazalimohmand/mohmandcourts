@@ -36,7 +36,56 @@
 }
 
 .carousel-container{
-    height: 81vh;
+    height: 70vh;
+}
+
+.card a{
+  text-decoration: none;
+  color: white;
+}
+/* .card.text-bg-dark{
+  background-color: rgb(238, 166, 31) !important;
+  color: black !important;
+  
+}
+
+.card-body{
+  background-color: rgb(196, 127, 0);
+  color: black;
+  cursor: pointer;
+
+} */
+
+/* 
+.row-2 .card.text-bg-dark{
+  background-color: #1f2833 !important;
+    
+}
+.row-2 .card-body{
+  background-color: #1f2833;
+  color: white;
+  cursor: pointer;
+} */
+/* .row-3 .card.text-bg-dark{
+  background-color: #2c3531 !important;
+  
+}
+.row-3 .card-body{
+  background-color: #2c3531;
+  color: white;
+  cursor: pointer;
+} */
+
+.card.text-bg-dark:hover{
+  background-color: rgb(238, 166, 31) !important;
+  color: black !important;
+  
+}
+
+.card-body:hover{
+  background-color: rgb(196, 127, 0);
+  color: black;
+  cursor: pointer;
 }
 
 .contact-us{
