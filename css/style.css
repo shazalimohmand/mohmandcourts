@@ -41,7 +41,7 @@
   height: 100%;
 }
 .section-message p{
-font-size: 0.8rem;
+font-size: 1rem;
 }
 .section-message h2{
   color: #46bd55;
@@ -110,7 +110,7 @@ font-size: 0.8rem;
 }
 
 .custom-col {
-    flex: 0 0 calc(100% / 6); /* Divide the row into 7 equal parts */
+    flex: 0 0 calc(100% / 6); /* Divide the row into 6 equal parts */
     max-width: calc(100% / 6); /* Same width for responsiveness */
     padding: 10px; /* Add spacing around columns */
   }
@@ -208,4 +208,17 @@ font-size: 0.8rem;
     .navbar .container-fluid{
         padding-left: 1px !important;
     }
+}
+
+@media (max-width: 768px) {
+  .carousel-item{
+    height: 25vh;
+}
+.custom-col {
+  flex: 0 0 calc(100% / 3);
+  max-width: calc(100% / 3);
+}
+.section-message img {
+  margin-bottom: 2rem;
+}
 }

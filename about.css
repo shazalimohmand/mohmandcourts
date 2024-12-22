@@ -6,6 +6,9 @@
 .text-justify {
     text-align: justify;
 }
-.history-top {
+
+@media (max-width: 768px) {
+ .history-top {
     margin-top: 2rem !important;
+}
 }
